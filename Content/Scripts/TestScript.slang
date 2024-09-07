@@ -1,3 +1,3 @@
-return x + 15;
+float var = 5.0;
 
-5+5;
+return var;
