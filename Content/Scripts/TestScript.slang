@@ -1,3 +1,3 @@
-string var = "5";
+// SLang Testing Program
 
-return var;
+return 5;
