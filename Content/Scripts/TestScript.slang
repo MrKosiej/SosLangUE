@@ -1,3 +1,3 @@
-float var = 5.0;
+string var = "5";
 
 return var;
