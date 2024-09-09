@@ -1,5 +1,5 @@
 // SLang Testing Program
 
-int adder (a: int, b: int) { return 5; }
+int adder( a:int| b:int| ) { return a + b; }
 
-return 1;
+return adder( 10, 20 );
