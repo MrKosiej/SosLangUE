@@ -1,3 +1,5 @@
 // SLang Testing Program
 
-return 5;
+int adder (a: int, b: int) { return 5; }
+
+return 1;
