@@ -1,9 +1,9 @@
 // SLang Testing Program
 
-//int adder( a:int, b:int ) { return @a + @b; }
+int adder( a:int | b:int ) { return @a + @b; }
 
-int kekw() { y = 9; } kekw();
+int kekw() { x:int = 9; } kekw();
 
-kekw.y = 10;
+kekw.x = 5;
 
-return kekw@y;
+adder(kekw->x | 10);
