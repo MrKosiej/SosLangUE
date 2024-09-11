@@ -1,5 +1,9 @@
 // SLang Testing Program
 
-x:int = print( "Test Print" _ );
+int adder( a:int | b:int ) { return @a + @b; } // Program Declaration
 
-return 5;
+int kekw() { x:int = 9; } kekw(); // Program Decl with program call
+
+kekw.x = 5; // Field set
+
+return adder( @kekw.x | 10 ); // Internal program call
