@@ -1,8 +1,11 @@
 // SLang Testing Program
 
-while (1) {
-    print( "Test Print" | _ );
+x = 5;
+
+while (@x) {
+    print( @x | _ );
     wait 0.5; // Delay
+    x = @x - 1;
 };
 
-return 1; // Internal program call
+return 69; // Internal program call

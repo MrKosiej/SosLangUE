@@ -23,4 +23,9 @@ int print( in:string ) {
 
 };
 
-print( "Test Print" );
+// While loop
+
+while (1) {
+    print( "something" | _ );
+    wait 0.5; // Delay
+};
