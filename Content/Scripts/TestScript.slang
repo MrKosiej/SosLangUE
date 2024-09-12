@@ -1,13 +1,8 @@
 // SLang Testing Program
 
-int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
+while (1) {
+    print( "Test Print" | _ );
+    wait 0.5; // Delay
+}
 
-int kekw() { x:int = 9; }; kekw(); // Program Decl with program call
-
-kekw.x = 5; // Field set
-
-print( "Test Print" | _ ); // External function call
-
-wait 1.5; // Delay
-
-return adder( @kekw.x | 10 ); // Internal program call
+return 1; // Internal program call

@@ -1,4 +1,7 @@
 // SLang Testing Program
+// I'll try making loops and conditionals
+// Think about the return values/ types of identifiers and programs
+// Maybe optimize how shit's passing from lexer to parser
 
 int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
 
