@@ -25,7 +25,10 @@ int print( in:string ) {
 
 // While loop
 
-while (1) {
-    print( "something" | _ );
+x = 5;
+
+while (@x) {
+    print( @x | _ );
     wait 0.5; // Delay
+    x = @x - 1;
 };
