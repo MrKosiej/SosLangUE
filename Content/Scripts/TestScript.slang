@@ -2,10 +2,8 @@
 
 x = 5;
 
-while (@x) {
-    print( @x | _ );
-    wait 0.5; // Delay
-    x--;
+for (5) {
+    print( "For Loop" | _ );
 };
 
 return "Hell yeah";
