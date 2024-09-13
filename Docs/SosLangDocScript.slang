@@ -1,6 +1,4 @@
 // SLang Testing Program
-// Think about the return values/ types of identifiers and programs
-// Maybe optimize how shit's passing from lexer to parser
 // TODO: array, structs
 
 int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
@@ -15,7 +13,7 @@ wait 1.5; // Delay
 
 return adder( @kekw.x | 10 ); // Internal program call
 
-// Calling external function withing internal program
+// Calling external function within internal program
 
 int print( in:string ) {
 
@@ -23,12 +21,25 @@ int print( in:string ) {
 
 };
 
-// While loop
+// Loops / Conditions
 
-x = 5;
+x = 2;
 
 while (@x) {
-    print( @x | _ );
-    wait 0.5; // Delay
-    x = @x - 1;
+    print( @x & " While loop" | _ );
+    wait 0.1;
+
+    if (@x == 1) {
+
+        for (3) {
+            print( "Looopers at " & @x | _ );
+        };
+
+    };
+    
+    x--;
 };
+
+print( " X is " & @x | _ );
+
+return "Hello";
