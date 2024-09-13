@@ -1,5 +1,5 @@
 // SLang Testing Program
-// TODO: array, structs
+// TODO: array, structs (template for instanced objects or something)
 
 int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
 
