@@ -5,12 +5,17 @@ x = 2;
 while (@x) {
     print( @x & " While loop" | _ );
     wait 0.1;
-    x--;
 
     if (@x == 1) {
-        print( "X was 1 here" | _ );
+
+        print( "IF at " & @x | _ );
+
+        for (3) {
+            print( "Looopers at " & @x | _ );
+        };
     };
     
+    x--;
 };
 
 print( " X is " & @x | _ );
