@@ -1,7 +1,7 @@
 // SLang Testing Program
 
-fn int adder( a:int | b:int ) { return @a + @b; };
+fn int adder() { return 10; };
 
-a = adder;
+a = @adder;
 
-return a(10|10);
+return @a;

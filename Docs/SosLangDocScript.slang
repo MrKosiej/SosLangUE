@@ -1,10 +1,6 @@
 // SLang Testing Program
 // TODO: array, structs (template for instanced objects or something)
 
-// Duplicate Copy Done: Literal, Identifier, Unary, Binary, ExpressionsWrapper
-// Duplicate Copy TODO: Program
-// Optional: OutCall, ProgramCall, ProgramDecl, Control
-
 int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
 
 int kekw() { x:int = 9; }; kekw(); // Program Decl with program call
