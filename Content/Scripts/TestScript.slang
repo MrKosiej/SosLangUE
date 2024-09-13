@@ -2,7 +2,6 @@
 
 fn int adder( a:int | b:int ) { return @a + @b; };
 
-x = 5;
-x = adder( @x | 10 );
+a = adder;
 
-return @x;
+return a(10|10);
