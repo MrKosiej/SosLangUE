@@ -2,8 +2,16 @@
 
 x = 5;
 
-for (5) {
-    print( "For Loop" | _ );
+while (@x) {
+    print( @x & " While loop" | _ );
+    wait 0.1;
+    x--;
 };
 
-return "Hell yeah";
+for (5) {
+    print( @x & " For Loop" | _ );
+    wait 0.1;
+    x++;
+};
+
+return "Hello";
