@@ -8,11 +8,10 @@ while (@x) {
 
     if (@x == 1) {
 
-        print( "IF at " & @x | _ );
-
         for (3) {
             print( "Looopers at " & @x | _ );
         };
+        
     };
     
     x--;
