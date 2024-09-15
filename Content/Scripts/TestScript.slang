@@ -1,11 +1,11 @@
 // SLang Testing Program
 
-fn int kekw() {
-    x:int = 9;
-    //print( "kekw has been ran" | _ );
+struct Point{
+    x:int = 10;
+    y:int = 10;
 };
-kekw();
 
-x = 87;
+p1 = Point;
+p1.x = 9;
 
-return @x;
+return @Point.x;
