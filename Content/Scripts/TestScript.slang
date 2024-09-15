@@ -1,7 +1,11 @@
 // SLang Testing Program
 
-fn int adder() { return 10; };
+fn int kekw() {
+    x:int = 9;
+    //print( "kekw has been ran" | _ );
+};
+kekw();
 
-a = @adder;
+x = 87;
 
-return @a;
+return @x;

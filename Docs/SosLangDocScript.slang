@@ -1,9 +1,9 @@
 // SLang Testing Program
 // TODO: array, structs (template for instanced objects or something)
 
-int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
+fn int adder( a:int | b:int ) { return @a + @b; }; // Program Declaration
 
-int kekw() { x:int = 9; }; kekw(); // Program Decl with program call
+fn int kekw() { x:int = 9; }; kekw(); // Program Decl with program call
 
 kekw.x = 5; // Field set
 
@@ -43,3 +43,11 @@ while (@x) {
 print( " X is " & @x | _ );
 
 return "Hello";
+
+// Strucutres tests
+
+struct Point{ x:int = 10 ; y:int = 10 };
+
+p1 = Point( 5 | 5 );
+
+return p1.x;
