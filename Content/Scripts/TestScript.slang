@@ -3,13 +3,13 @@
 struct Point{
     x:int = 10;
     y:int = 11;
-
-    fn int sum(){ x + y };
 };
 
+p1 = Point;
 
+fn int pointsum( a:Point ) { return a.x + a.y; };
 
-return Point.x;
+return pointsum( p1 );
 
 
 //[ID] [OP] [LIT]
