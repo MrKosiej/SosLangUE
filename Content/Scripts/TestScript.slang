@@ -1,11 +1,6 @@
 // SLang Testing Program
 
-struct Point{
-    x:int = 10;
-    y:int = 11;
+x = 5;
+y = x;
 
-    fn int sum(){ @x + @y };
-};
-
-
-return Point.sum();
+return y;

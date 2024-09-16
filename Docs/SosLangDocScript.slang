@@ -50,3 +50,14 @@ p1 = Point;
 p1.x = 9;
 
 return @Point.x;
+
+// Structs with functions
+
+struct Point{
+    x:int = 10;
+    y:int = 11;
+
+    fn int sum(){ @x + @y };
+};
+
+return Point.sum();
