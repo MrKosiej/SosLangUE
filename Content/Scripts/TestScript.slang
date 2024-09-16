@@ -1,6 +1,12 @@
 // SLang Testing Program
 
-x = 5;
-y = x;
+struct Point{
+    x:int = 10;
+    y:int = 10;
+};
 
-return y;
+return Point.x;
+
+
+//[ID] [OP] [LIT]
+//[OP] [LIT]
