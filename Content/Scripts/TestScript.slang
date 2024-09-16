@@ -2,13 +2,14 @@
 
 struct Point{
     x:int = 10;
-    y:int = 12;
+    y:int = 11;
+
+    fn int sum(){ x + y };
 };
 
-p1 = Point;
-p2 = Point;
 
-return p1.x + p2.x;
+
+return Point.x;
 
 
 //[ID] [OP] [LIT]
