@@ -1,5 +1,5 @@
 // SLang Testing Program
 
-x = "Hello";
+arr = [1 2 3];
 
-return x@3 & x@4 & x@3;
+return arr@1;
