@@ -1,7 +1,7 @@
 // SLang Testing Program
 
-x = 5;
+<<"Enter your name";
 
 >>x;
 
-return x;
+return "Your name is: " & x;
