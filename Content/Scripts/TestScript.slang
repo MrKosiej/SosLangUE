@@ -1,18 +1,7 @@
 // SLang Testing Program
 
-struct Point{
-    x:int = 10;
-    y:int = 11;
-};
+x = 5;
 
-p1 = Point;
+>>x;
 
-fn int pointsum( a:Point ) { return a.x + a.y; };
-
-print( pointsum( p1 ) | _ );
-
-return "Hello";
-
-
-//[ID] [OP] [LIT]
-//[OP] [LIT]
+return x;
