@@ -9,7 +9,9 @@ p1 = Point;
 
 fn int pointsum( a:Point ) { return a.x + a.y; };
 
-return pointsum( p1 );
+print( pointsum( p1 ) | _ );
+
+return "Hello";
 
 
 //[ID] [OP] [LIT]
