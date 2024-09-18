@@ -36,13 +36,16 @@ while (x) { // loops while x > 0
 // Structures
 
 // Structure program declaration, program runs immediately when declared
-struct Point{
+struct Vec2d{
     // Values saved in Point memory
     x:int = 10;
     y:int = 10;
 };
 
-p1 = Point; // makes a new Point
+p1 = Vec2d; // makes a new Point
 p1.x = 9; // assigns a literal to p1's field "x"
 
-return Point.x; // returns literal that x points to
+// Function with structs
+fn float dotProduct( a:Vec2d | b:Vec2d ) {
+    return a.x * b.x + a.y * b.y;
+};
