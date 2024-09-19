@@ -1,13 +1,13 @@
-// SLang struct tester
+// SLang Testing Program
 
-struct Vec2d{
+x = 5;
 
-    x:int = 10;
-    y:int = 10;
-
-    fn int sum() {
-        return x + y;
-    };
+fn int inc( a:int ){
+    $a++;
 };
 
-return Vec2d.sum();
+inc(&x);
+
+<< "x: " & x;
+
+return "End";
