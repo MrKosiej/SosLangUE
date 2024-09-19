@@ -1,13 +1,9 @@
 // SLang Testing Program
+// add assert and exception(stop program)
 
-x = 5;
-
-fn int inc( a:int ){
-    $a++;
+for(5){
+    <<"Iteration: " & it;
+    wait 0.1;
 };
-
-inc(&x);
-
-<< "x: " & x;
 
 return "End";
