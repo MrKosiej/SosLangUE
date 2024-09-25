@@ -1,9 +1,3 @@
-// SLang Testing Program
-// add assert and exception(stop program)
+fn int adder( a:int, b:int ) { return a + b; }; // Program Declaration, decalred program runs only when called
 
-for(5){
-    <<"Iteration: " & it;
-    wait 0.1;
-};
-
-return "End";
+adder ( 10, 10 ); // Program call
